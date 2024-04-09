@@ -1,0 +1,21 @@
+Criar conta de e-mail
+Criar caixa compartilhada
+Criar redirecionamento automático
+Solicito backup da minha caixa de e-mail
+Criar grupo de e-mail
+Remover caixa compartilhada
+Remover grupo de e-mail
+Alterar e-mail secundário
+Outras configurações
+Como criar regras automáticas?
+Como alterar minha assinatura?
+Como colocar mensagem temporária
+Outras Dúvidas
+Não está enviando/recebendo e-mails
+Não anexa arquivos
+Não está recebendo os anexos
+Mensagem de caixa de e-mail cheia
+Não consigo acessar meu e-mail
+Outras falhas
+E-mail com virus
+Outros incidentes de segurança
