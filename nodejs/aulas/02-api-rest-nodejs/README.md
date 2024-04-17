@@ -39,3 +39,7 @@ Design de Software
 
 Poderia me responder como um engeinheiro de software como experiência no ecosistema nodejs, javascript, reactjs.
 Me confirme se entendeu.
+
+Build Command: npm install && npm run knex -- migrate:latest && npm run build
+
+Start Command: node build/server.js
