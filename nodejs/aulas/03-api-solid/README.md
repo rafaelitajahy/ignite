@@ -30,3 +30,23 @@ GymPass style app.
 - [ ] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
 - [ ] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
+
+# Integrando com front-end
+
+Caso precise integrar com o front-end, você deve ter se deparado com o refreshToken não sendo setado nos cookies do navegador, para resolver esse problema, ilustraremos a solução utilizando o Axios:
+
+No servidor, adicione a propriedade credentials como true:
+
+```javascrit
+app.register(cors, {
+  origin: true,
+  credentials: true,
+})
+```
+No create ou nas requisições do Axios, adicione o withCredentials como true:
+```javascrit
+const api = axios.create({
+  baseURL: 'http://localhost:3333',
+  withCredentials: true,
+})
+```

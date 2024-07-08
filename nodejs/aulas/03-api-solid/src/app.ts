@@ -1,10 +1,10 @@
 import fastify from 'fastify'
+import fastifyJwt from '@fastify/jwt'
+import fastifyCookie from '@fastify/cookie'
 import { ZodError } from 'zod'
 import { env } from './env'
-import fastifyJwt from '@fastify/jwt'
 import { usersRoutes } from '@/http/controllers/users/routes'
 import { gymsRoutes } from '@/http/controllers/gyms/routes'
-import fastifyCookie from '@fastify/cookie'
 
 export const app = fastify()
 
@@ -18,6 +18,7 @@ app.register(fastifyJwt, {
     expiresIn: '10m',
   },
 })
+
 app.register(fastifyCookie)
 app.register(usersRoutes)
 app.register(gymsRoutes)
