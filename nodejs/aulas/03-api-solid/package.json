@@ -23,8 +23,8 @@
     "@types/bcryptjs": "2.4.6",
     "@types/node": "20.12.7",
     "@types/supertest": "6.0.2",
-    "@vitest/coverage-v8": "1.5.2",
-    "@vitest/ui": "1.5.2",
+    "@vitest/coverage-v8": "2.0.1",
+    "@vitest/ui": "2.0.1",
     "eslint": "8.57.0",
     "prisma": "5.12.1",
     "supertest": "7.0.0",
@@ -32,7 +32,7 @@
     "tsx": "4.7.2",
     "typescript": "5.4.5",
     "vite-tsconfig-paths": "4.3.2",
-    "vitest": "1.5.2"
+    "vitest": "2.0.1"
   },
   "dependencies": {
     "@fastify/cookie": "9.3.1",
